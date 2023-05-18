@@ -1,9 +1,2 @@
 #!/bin/bash
-
-current_dir=$(pwd)
-
-subdirectories=$(find "current_dir" -type d)
-
-for dir in $subdirectories; do
-	chmod o+X "$dir"
-done
+chmod o+X "$dir"
